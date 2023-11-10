@@ -10,7 +10,7 @@ class RPS:
         self.valid_moves: list[str] = list(self.moves.keys())
 
     def play_game(self):
-
+        # Get the user input and lower() it
         user_move = input("'Rock, paper, or scissors? >> ").lower()
 
         if user_move == "exit":
